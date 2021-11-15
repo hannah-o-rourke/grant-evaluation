@@ -1,3 +1,15 @@
+**File descriptions:**
+
+justification.txt
+
+variables.csv: Table of project IDs, names, and variables. Currently just the messy 'R1' variables from original spreadsheet.
+
+value_functions.py: file of potential value functions. Currently just contains greens_equally(), which only cares about the 'R1_Group' variable, and assigns value 1 to each 'green' project.
+
+allocate.py: Calls a value function from value_functions and splits the £3m according to the scores.
+
+allocation.csv: Table of the money allocated to each project.
+
 **Value Statement** 
 
 As a group we have a number of things that we think are important:
@@ -21,18 +33,4 @@ Level of impact: There needs to be a consideration about the level and scale of 
 Something we agree we need to be aware of:
 Being aware of our own bias: There was a suggestion that we need to be aware of our own biases throughout this process.
 
-
-
-
-**File descriptions:**
-
-justification.txt
-
-variables.csv: Table of project IDs, names, and variables. Currently just the messy 'R1' variables from original spreadsheet.
-
-value_functions.py: file of potential value functions. Currently just contains greens_equally(), which only cares about the 'R1_Group' variable, and assigns value 1 to each 'green' project.
-
-allocate.py: Calls a value function from value_functions and splits the £3m according to the scores.
-
-allocation.csv: Table of the money allocated to each project.
 
