@@ -1,6 +1,6 @@
 from value_functions import *
 
-values = greens_equally()
+values = greens_amplification()
 
 def allocate(values):
 
@@ -12,7 +12,7 @@ def allocate(values):
     # produce an allocation
     
     projects = pd.read_csv("variables.csv",
-                           usecols=['Project_ID', 'Project_Name'])
+                           usecols=['Number', 'Name'])
     projects['Allocation'] = normed_values
 
     projects.to_csv("allocation.csv", index=False)
